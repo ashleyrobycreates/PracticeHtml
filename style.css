@@ -12,3 +12,9 @@ body {
     padding: 10px;
     margin:0;
 }
+h2  { 
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-fill-color: rgb(204, 255, 0);
+
+}
