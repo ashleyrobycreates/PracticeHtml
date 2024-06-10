@@ -18,3 +18,17 @@ h2  {
     -webkit-text-fill-color: rgb(204, 255, 0);
 
 }
+aside {
+    width: 40%;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    float: right;
+    box-shadow: inset 10px 0px 10px 10px #f40488;
+    font-style: italic;
+    color: #000b10;
+  }
+  
+  aside > p {
+    margin: 0.5rem;
+  }
+  
