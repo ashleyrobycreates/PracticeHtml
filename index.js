@@ -1,13 +1,9 @@
-{
-    "message": "https://images.dog.ceo/breeds/terrier-russell/iguet4.jpg",
-    "status": "success"
-}
 const colorSelect =document.getElementByID("background-color");
 const details =document.getElementByID("details");
 
 const dogImg = document.getElementByID("dogImg");
 
-fetch('https://dog.ceo/api/breeds/image/random')
+fetch('https://images.dog.ceo/breeds/terrier-russell/iguet4.jpg')
             .then(response => response.json())
             .then(data => {
                 if (data.status === 'success') {
@@ -19,4 +15,4 @@ fetch('https://dog.ceo/api/breeds/image/random')
                     fetchNewDogImage();
                 }
             })
-    }
+    
