@@ -31,4 +31,6 @@ aside {
   aside > p {
     margin: 0.5rem;
   }
-  
+  img {
+    width: 100%;
+  }
